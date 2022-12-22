@@ -1,14 +1,6 @@
 import TodoList from './TodoList.js'
 import Todo from './Todo.js'
 
-// let addTodo = () => {
-//   let content = document.getElementById('newTask').value;
-//   let viecLamMoi = new Todo(content,0)
-//   todoList.ThemViecLam(viecLamMoi);
-//   todoList.renderToDo()
-//   console.log(viecLamMoi);
-// }
-// window.addTodo = addTodo;
 const todoList = new TodoList()
 
 let ThemViecMoi = () => {
